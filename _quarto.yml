@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - assets/**
+    - favicon.svg
+
+website:
+  title: "Tina Mote"
+  navbar: false
+  search: false
+
+format:
+  html:
+    template: template.html
+    theme: none
+    css: styles.css
+    toc: false
+    anchor-sections: false
